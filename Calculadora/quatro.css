@@ -1,0 +1,73 @@
+body{
+    font-size: 25pt;
+    color: rgb(48, 47, 47);
+    background-color: #FDE3BC;
+}
+#calculadora{
+    margin: auto;
+    margin-top: 60px;
+    width: 200px;
+    height: 215px;
+    background-color: #263632;
+    border: 1px solid rgb(29, 29, 29);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+}
+.visor{
+    margin: 0px 0px 5px;
+    padding: 12px;
+    border-radius: 3px;
+}
+.visor_{
+    display: block;
+    margin: auto;
+    width: 86%;
+    height: 30px;
+    padding: 0px 10px;
+    background-color: #1e5245;
+    color: whitesmoke;
+    border: 3px solid #111;
+    border-radius: 5px;
+    font-family: Courier;
+}
+.botao, .botao_op, .botao_f, .botao_res{
+    float: left;
+    padding: 0px;
+    margin: 0 0 5px 12px;
+    width: 35px;
+    line-height: 22px;
+    color: white;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-family: Courier;
+    font-size: 10pt;
+    box-shadow: 1px 1px 2px #000;
+    
+} 
+.botao{
+    background-color: rgb(46, 46, 46);
+}
+.botao_f{
+    background-color: rgb(150, 141, 141);
+    font-family: Courier;
+    font-size: 8pt;
+}
+.botao_op{
+    background-color: rgb(255, 79, 79);
+}
+.botao_res{
+    background-color: rgb(255, 130, 28);
+}
+
+.botao:hover{
+    background-color: rgb(59, 59, 59);
+}
+.botao_f:hover{
+    background-color: rgb(163, 154, 154);
+}
+.botao_op:hover{
+    background-color: rgb(252, 94, 94);
+}
+.botao_res:hover{
+    background-color: rgb(253, 141, 48);
+}
